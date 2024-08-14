@@ -38,8 +38,8 @@ let package = Package(
                 .linkedFramework("UIKit", .when(platforms: [.iOS, .tvOS])),
             ]
         ),
-        .binaryTarget(name: "MoblileVLCKitPackage", url: "https://github.com/OtoFlow/VLCKitPackage/releases/download/v3.6.0/MobileVLCKit.xcframework.zip", checksum: "af8fb27b80e1e8fc7ed7e3f3569c7b5b973adf5684b4d686f923f593d97172c9"),
-        .binaryTarget(name: "TVVLCKitPackage", url: "https://github.com/OtoFlow/VLCKitPackage/releases/download/v3.6.0/TVVLCKit.xcframework.zip", checksum: "037f4ae468362fc339b69aa984fd46a5461d8e47e70074cfde1a0207c85d721e"),
-        .binaryTarget(name: "VLCKitPackage", url: "https://github.com/OtoFlow/VLCKitPackage/releases/download/v3.6.0/VLCKit.xcframework.zip", checksum: "c782a5ae77c705ec65dcbf7cc012052defb30ff1dc6bdd55b4ef182bc4f99a7d"),
+        .binaryTarget(name: "MobileVLCKitPackage", url: "https://github.com/OtoFlow/VLCKitPackage/releases/download/3.6.0/MobileVLCKit.xcframework.zip", checksum: "af8fb27b80e1e8fc7ed7e3f3569c7b5b973adf5684b4d686f923f593d97172c9"),
+        .binaryTarget(name: "TVVLCKitPackage", url: "https://github.com/OtoFlow/VLCKitPackage/releases/download/3.6.0/TVVLCKit.xcframework.zip", checksum: "037f4ae468362fc339b69aa984fd46a5461d8e47e70074cfde1a0207c85d721e"),
+        .binaryTarget(name: "VLCKitPackage", url: "https://github.com/OtoFlow/VLCKitPackage/releases/download/3.6.0/VLCKit.xcframework.zip", checksum: "c782a5ae77c705ec65dcbf7cc012052defb30ff1dc6bdd55b4ef182bc4f99a7d"),
     ]
 )
